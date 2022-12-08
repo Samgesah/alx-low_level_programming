@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -E hello.c -o CFILE
+gcc -E export CFILES=0-main.c -o c
