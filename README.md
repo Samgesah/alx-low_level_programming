@@ -1,2 +1,3 @@
-C-Programming Learning Projects.
+C Learning Projects.
+
 0x00. C-Hello, World
