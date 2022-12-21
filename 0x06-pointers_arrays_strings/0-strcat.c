@@ -4,7 +4,7 @@
 /**
   *_strcat - concatenates two string
   *@dest: first string
-  *@char: second string to append
+  *@src: second string to append
   *Return: string
   */
 
