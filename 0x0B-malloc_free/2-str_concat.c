@@ -3,25 +3,25 @@
 #include <string.h>
 
 /**
-  *str_concat - string concatenate function
+  *str_concat - concatenate 2 strings
   *@s1: first string
   *@s2: second string
-  *Return: a pointer
-  *null on failure
+  *Return: 2 strings concatenated
   */
 char *str_concat(char *s1, char *s2)
 {
-	int s1_length = strlen(s1);
-	int s2_length = strlen(s2);
-	int size = s1_length + s2_length + 1;
-	int i = 0;
 	char *s;
+	int i, s1_length, s2_length, size;
 
 	if (s1 == NULL)
 		s1 = "";
 	if (s2 == NULL)
 		s2 = "";
 
+
+	s1_length = strlen(s1);
+	s2_length = strlen(s2);
+	size = s1_length + s2_length + 1;
 	s = malloc(size * sizeof(char));
 
 	if (s == NULL)
