@@ -1,4 +1,4 @@
-include <stdio.h>
+#include <stdio.h>
 #include "function_pointers.h"
 /**
  * int_index - function to return index of compared int
