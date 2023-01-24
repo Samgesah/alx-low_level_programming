@@ -1,4 +1,7 @@
 #include "variadic_functions.h"
+#include <stddef.h>
+#include <stdio.h>
+#include <stdarg.h>
 /**
  * integer_print - print integers.
 (* a blank line
