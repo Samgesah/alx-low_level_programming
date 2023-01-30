@@ -1,5 +1,6 @@
 #include "lists.h"
-
+#include <stdlib.h>
+#include <stdio.h>
 /**
  * list_len  - function to get length of node
  * @h: pointer to nodes
@@ -10,7 +11,7 @@ size_t list_len(const list_t *h)
 {
 	size_t count = 0;
 
-	while (h == NULL)
+	while (h)
 	{
 		h = h->next;
 		count++;
