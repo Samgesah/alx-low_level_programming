@@ -4,7 +4,7 @@
  * create_file - function that creates file
  * @filename: pointer to filename to be created of char const type
  * @text_content: string to be written into file
- * Return: 1 on success, -1 on failure 
+ * Return: 1 on success, -1 on failure
  */
 int create_file(const char *filename, char *text_content)
 {
